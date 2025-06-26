@@ -7,8 +7,8 @@ import glob
 from scipy import interpolate, optimize, integrate
 from scipy.stats import ks_1samp, ks_2samp
 from scipy.stats import gamma as gamma_func
-from bayes_opt import BayesianOptimization as bopt
-from bayes_opt import acquisition
+#from bayes_opt import BayesianOptimization as bopt
+#from bayes_opt import acquisition
 import warnings
 import multiprocessing as mp
 from functools import partial
