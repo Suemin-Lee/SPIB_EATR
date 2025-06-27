@@ -14,7 +14,7 @@ locals().update(params)
 acc_factors = []
 for i in range(iter_nums):
         with open(f'{altname}_data/accelerated_data_iter_{i}.npy','rb') as f:
-            acc_factors.append(np.lib.format.read_array(f))
+            acc_factors.append(np.lib.format.read_array(f)*1e12)
 
 # Load the biased and rescaled residence times
 sim_times = []
